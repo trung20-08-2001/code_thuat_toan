@@ -1,3 +1,5 @@
+import java.net.*;
+
 public class RiverCrossing {
     //Có một nhóm gồm n người tìm cách vượt qua con sông để sang bờ bên kia.
     //Cách duy nhất để vượt qua dòng sông là dùng chiếc thuyền duy nhất ở trên dòng sông.
@@ -24,6 +26,7 @@ public class RiverCrossing {
 
     public static void main(String[] args) {
         System.out.println("Result :"+riverCrossing(3,2));
-
     }
+
 }
+
